@@ -1,0 +1,40 @@
+#全局配置文件-修改springboot自动配置的默认值
+#yml/yaml：YAML Ain't MarKup Language，以数据为中心，比json、xml等更适合做配置文件【简洁、标签少】
+#基本语法
+#格式：k: v   表示键值对，v前面空格必须有
+#1、用缩进来控制层级关系：左对齐的一列数据都是一个层级的
+#2、大小写敏感
+#3、字符串默认不用加上单引号或者双引号
+
+server:
+  port: 8081
+
+person:
+  age: 18
+  boss: false
+  birth: 2020/10/14
+  maps: {a: 1,b: 2}
+  lists: [a,b,c]
+  dog:
+    name: 小狗
+    age: 2
+  name: linzhi
+
+
+
+#friendObject:
+#  lastName: zhangsan
+#  age: 20
+#
+##行内写法
+#friendsObject: {lastName: zhangsan,age: 20}
+#
+#petArray:
+#  - cat
+#  - dog
+#  - pig
+##行内写法
+#petsArray: [cat,gog,pig]
+
+
+
